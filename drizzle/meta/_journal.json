@@ -1,0 +1,55 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1709367860898,
+      "tag": "0000_sweet_crusher_hogan",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1709374886012,
+      "tag": "0001_rich_alex_power",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1709375701660,
+      "tag": "0002_flippant_frightful_four",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1709386239169,
+      "tag": "0003_lean_drax",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1709390425636,
+      "tag": "0004_overconfident_black_panther",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1709390577082,
+      "tag": "0005_exotic_iron_fist",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1709392583530,
+      "tag": "0006_absurd_mephistopheles",
+      "breakpoints": true
+    }
+  ]
+}

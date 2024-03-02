@@ -1,0 +1,1 @@
+ALTER TABLE "skills" ADD COLUMN "skill" text NOT NULL;
