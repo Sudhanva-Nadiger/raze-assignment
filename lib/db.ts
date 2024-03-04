@@ -18,6 +18,10 @@ export const getUserById = async (id: number): Promise<User> => {
     return selectResult[0];
 };
 
+export const getAllUsers = async () => {
+    return db.select().from(users);
+};
+
 export const insertUser = async (user: NewUser) => {
     return db.insert(users).values(user).returning();
 };

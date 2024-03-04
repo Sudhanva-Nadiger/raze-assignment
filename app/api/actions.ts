@@ -18,7 +18,8 @@ import {
     fetchUserSkills as fetchSkills,
     addUserSkill as addSkill,
     editUserSkill as editSkill,
-    deleteUserSkill as deleteSkill
+    deleteUserSkill as deleteSkill,
+    getAllUsers as fetchAllUsers
 } from "@/lib/db";
 
 import { 
@@ -34,6 +35,10 @@ import {
     SkillFormData,
     skillFormSchema
 } from "@/lib/zodSchema"
+
+export async function getAllUsers() {
+    return await fetchAllUsers();
+}
 
 
 export async function createUser(data: CreateFormData) {
